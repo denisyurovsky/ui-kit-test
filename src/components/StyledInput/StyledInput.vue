@@ -124,6 +124,7 @@ input {
     color: $gray;
     border: 0.5px solid $gray;
     background: $disabled;
+    cursor: not-allowed;
   }
 
   &:hover:not(:disabled), &:hover:not(:read-only) {

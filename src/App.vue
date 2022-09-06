@@ -47,6 +47,12 @@
       <span>здесь будет выведен текст из инпута</span>
       {{text}}
       <StyledInput
+          :disabled="true"
+          inputType="text"
+          inputName="Email"
+          placeholder="enter an email"
+          errorName="email Is invalid" />
+      <StyledInput
           :isInvalid="true"
           inputType="text"
           inputName="Provide a number"
